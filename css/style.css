@@ -10,9 +10,8 @@ img{
     height:50px;
     /* float: left; */
 }
-
-@media screen and (min-width: 500px){
-    body{
-        background-color:rgb(238,238,238);
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(128,128,128);
     }
 }

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -18,18 +19,31 @@
         <a class="nav-link" href="#pricing">Pricing</a>
       </nav>
     </header>
-    <div id="features"> </div> 
-    <div id="howItWorks"> </div> 
-    <div id="pricing"> </div> 
+    <div id="features"></div>
+    <div id="howItWorks"></div>
+    <div id="pricing" style="display: flex">
+      <div class="product" style="display: flex">Product1</div>
+      <div class="product">Product2</div>
+      <div class="product">Product3</div>
+    </div>
     <iframe
       id="video"
       src="https://www.youtube.com/embed/y8Yv4pnO7qc"
       width="500"
       height="300"
     ></iframe>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input id="email" name="email" type="email" placeholder="Enter your email address" />
-      <input id="submit"  type="submit" placeholder="submit" /> 
+    <form
+      id="form"
+      action="https://www.freecodecamp.com/email-submit"
+      method="get"
+    >
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="Enter your email address"
+      />
+      <input id="submit" type="submit" placeholder="submit" />
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
